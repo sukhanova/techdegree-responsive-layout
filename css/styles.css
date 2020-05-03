@@ -1,6 +1,25 @@
+
 * {
     font-family: 'Oswald',
         sans-serif;
     font-family: 'Noto Serif',
         serif;
 }
+
+/* Type Selectors ------------------ */
+
+body {
+    line-height: 1.5;
+}
+
+/* ID Selectors -------------------- */
+
+/* Class Selectors ----------------- */
+
+/* Pseudo-classes ------------------ */
+
+:focus {
+    color: white;
+    background-color: orange;
+}
+
