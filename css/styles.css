@@ -9,12 +9,55 @@
 /* Type Selectors ------------------ */
 
 body {
+    background-color: #fafafa;
     line-height: 1.5;
+}
+
+h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+h2 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.0rem;
+    font-weight: bold;    
+}
+
+p {
+    font-size: 1.0rem;
+    font-weight: normal;
+}
+
+img {
+    max-width: 100%;
 }
 
 /* ID Selectors -------------------- */
 
+#portfolio {
+    background-color:white;
+    padding: 0 10px 30px;
+    text-align: center;
+}
 /* Class Selectors ----------------- */
+
+.profile-image {
+    margin: 30px 0;
+}
+.profile-text {
+    padding: 30px 0;
+    text-align: left;
+}
+
+.section-header {
+   padding: 30px 0; 
+}
 
 /* Pseudo-classes ------------------ */
 
@@ -22,4 +65,3 @@ body {
     color: white;
     background-color: orange;
 }
-
